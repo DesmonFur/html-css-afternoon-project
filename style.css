@@ -1,0 +1,104 @@
+
+
+
+
+body {
+    background-color: aliceblue;
+}
+
+.attention {
+    display: flex;
+    background-size: cover;
+    background-image: url(https://s3.amazonaws.com/www-inside-design/static/img/butterbar-dbpodcast.png);
+    background-position: right center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+	transition: .4s ease-in-out;
+	height: 5%;
+}
+
+
+
+.navbar {
+ display: flex;
+ justify-content: space-between;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	position: relative;
+	top: 5vh;
+}
+
+li {
+    list-style: none;
+    margin: 16px;
+}
+
+
+
+.logo{
+	display: flex;
+	position: relative;
+}
+
+.block-1	{
+	display: flex;
+	flex-direction: column;	
+	position: relative;
+	height: 100vh;
+	width: 95%;
+	background-color: greenyellow;
+	margin: 5%;
+}
+
+
+.icons {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: flex-end;
+	align-content: stretch;
+	position: relative;
+	top: 77vh;
+}
+
+.text {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.block-2{
+		display: flex;
+		flex-direction: column;
+		position: relative;
+		height: 50vh;
+		width: 75%;
+		background-color: yellow;
+		margin-left: 25%;
+	}
+
+
+.pic {
+	width: 200px;
+	height: 200px;
+	border-radius: 200px;
+	border: solid 8px black;
+	position: absolute;
+	top: 148vh;
+	left: 16vh;
+}
+
+.block-3 {
+	display: flex;
+	
+}
+
+
